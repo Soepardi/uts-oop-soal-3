@@ -12,9 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-// ============================================================
-// Kelas Transaction - Model untuk menyimpan riwayat transaksi
-// ============================================================
+
 class Transaction {
     private String jenis;
     private long nominal;
@@ -209,9 +207,6 @@ public class ATMApplication extends JFrame {
         }
     }
 
-    // ============================================================
-    // Konstruktor - Inisialisasi Frame
-    // ============================================================
     public ATMApplication() {
         atm = new ATM();
         setTitle("ATM Simulator - Bank UNSIA");
